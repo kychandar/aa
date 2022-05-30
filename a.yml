@@ -19,7 +19,6 @@ spec:
         app: jenkins-server
     spec:
       serviceAccountName: jenkins-admin
-    spec:
       containers:
       - name: jenkins
         image: jenkins/jenkins:lts
