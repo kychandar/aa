@@ -2,8 +2,6 @@
   vars:
     hello: "from playbook"
   gather_facts: false
-  roles:
-    - test-role-1
   tasks:
     - action: ping
     - debug: msg="msg from playbook, {{ansible_user}}, {{ansible_password}}"
