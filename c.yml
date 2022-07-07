@@ -4,4 +4,4 @@
   gather_facts: false
   tasks:
     - action: ping
-    - debug: msg="msg from playbook, {{ansible_user}}, {{ansible_password}}"
+    - debug: msg="msg from playbook, {{ansible_user}}, {{ansible_password}}, {{playbook_dir}}"
