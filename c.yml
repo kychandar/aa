@@ -5,3 +5,5 @@
   tasks:
     - action: ping
     - debug: msg="msg from playbook, {{ansible_user}}, {{ansible_password}}, {{playbook_dir}}"
+    - ansible.builtin.pause:
+        minutes: 5
